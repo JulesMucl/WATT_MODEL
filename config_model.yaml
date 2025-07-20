@@ -1,3 +1,8 @@
+
+
+
+
+mass: 78.0                   # kg, masse du cycliste + vélo
 ground_temperature: 298.15  # K
 p0: 101325                  # Pa
 altitude: 1000              # m
@@ -6,3 +11,14 @@ L_ad: 0.0065                # K/m
 R: 287.05                   # J/(kg·K)
 
 
+
+
+
+### A calculer plus tard ###
+
+Cd : 0.825 # Coefficient de traînée
+A: 0.45    # m^2, surface frontale
+V_moy : 6.0389    # m/s, vitesse moyenne
+Rol_res_coef : 0.004  # Coefficient de résistance au roulement https://cabanisbrive.scenari-community.org/Spe_SI/Terminale/Sequence_09_PFS/Sequence_09_web/co/05_resistroulem.html
+slope : 8.28 # %
+eta_bike : 0.975 # Rendement du vélo
