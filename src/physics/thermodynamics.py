@@ -19,7 +19,7 @@ def compute_density(altitude, ground_temperature, p0, g, R, L_ad):
     P = p0 * (1 - L_ad * altitude / ground_temperature)**(g / (R * L_ad))
     
     # Température à l'altitude (car CoolProp a besoin de la température locale)
-    T_alt = ground_temperature - L * altitude  # T(h) = T0 - L·h
+    T_alt = ground_temperature - L_ad * altitude  # T(h) = T0 - L·h
     
     # Densité de l'air avec CoolProp à cette altitude
     rho = CP.PropsSI('D', 'T', T_alt, 'P', P, 'Air')

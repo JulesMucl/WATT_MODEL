@@ -1,3 +1,8 @@
-temperature: 298.15  # K
-pressure: 101325     # Pa
-altitude: 1000       # m
+ground_temperature: 298.15  # K
+p0: 101325                  # Pa
+altitude: 1000              # m
+g: 9.81                     # m/s^2
+L_ad: 0.0065                # K/m
+R: 287.05                   # J/(kg·K)
+
+
